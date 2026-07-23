@@ -1,0 +1,111 @@
+# ==============================
+# Build directories
+# ==============================
+build/
+build-*/
+cmake-build-*/
+out/
+dist/
+bin/
+
+# ==============================
+# CMake-generated files
+# ==============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+compile_commands.json
+install_manifest.txt
+Makefile
+_deps/
+
+# ==============================
+# Compiled C/C++ files
+# ==============================
+*.o
+*.obj
+*.s
+*.asm
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.dSYM/
+
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.suo
+
+# ==============================
+# Visual Studio Code
+# ==============================
+.vscode/
+.history/
+
+# ==============================
+# JetBrains / CLion
+# ==============================
+.idea/
+*.iml
+
+# ==============================
+# Operating-system files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+ehthumbs.db
+
+# ==============================
+# Temporary and backup files
+# ==============================
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+~$*
+
+# ==============================
+# Runtime-generated game data
+# ==============================
+leaderboard.json
+savegame.json
+settings.json
+screenshots/
+
+# ==============================
+# Test-generated files
+# ==============================
+Testing/
+test-results/
+coverage/
+*.gcda
+*.gcno
+*.gcov
